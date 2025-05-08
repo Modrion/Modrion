@@ -1,0 +1,67 @@
+{
+  "api/Modrion.Core.EventAttribute.html": {
+    "href": "api/Modrion.Core.EventAttribute.html",
+    "title": "Class EventAttribute | Modrion",
+    "summary": "Class EventAttribute Namespace Modrion.Core Assembly Modrion.Core.dll [AttributeUsage(AttributeTargets.Method)] public class EventAttribute : Attribute, _Attribute Inheritance object Attribute EventAttribute Implements _Attribute Inherited Members Attribute.GetCustomAttributes(MemberInfo, Type) Attribute.GetCustomAttributes(MemberInfo, Type, bool) Attribute.GetCustomAttributes(MemberInfo) Attribute.GetCustomAttributes(MemberInfo, bool) Attribute.IsDefined(MemberInfo, Type) Attribute.IsDefined(MemberInfo, Type, bool) Attribute.GetCustomAttribute(MemberInfo, Type) Attribute.GetCustomAttribute(MemberInfo, Type, bool) Attribute.GetCustomAttributes(ParameterInfo) Attribute.GetCustomAttributes(ParameterInfo, Type) Attribute.GetCustomAttributes(ParameterInfo, Type, bool) Attribute.GetCustomAttributes(ParameterInfo, bool) Attribute.IsDefined(ParameterInfo, Type) Attribute.IsDefined(ParameterInfo, Type, bool) Attribute.GetCustomAttribute(ParameterInfo, Type) Attribute.GetCustomAttribute(ParameterInfo, Type, bool) Attribute.GetCustomAttributes(Module, Type) Attribute.GetCustomAttributes(Module) Attribute.GetCustomAttributes(Module, bool) Attribute.GetCustomAttributes(Module, Type, bool) Attribute.IsDefined(Module, Type) Attribute.IsDefined(Module, Type, bool) Attribute.GetCustomAttribute(Module, Type) Attribute.GetCustomAttribute(Module, Type, bool) Attribute.GetCustomAttributes(Assembly, Type) Attribute.GetCustomAttributes(Assembly, Type, bool) Attribute.GetCustomAttributes(Assembly) Attribute.GetCustomAttributes(Assembly, bool) Attribute.IsDefined(Assembly, Type) Attribute.IsDefined(Assembly, Type, bool) Attribute.GetCustomAttribute(Assembly, Type) Attribute.GetCustomAttribute(Assembly, Type, bool) Attribute.Equals(object) Attribute.GetHashCode() Attribute.Match(object) Attribute.IsDefaultAttribute() Attribute.TypeId object.ToString() object.Equals(object, object) object.ReferenceEquals(object, object) object.GetType() object.MemberwiseClone() Constructors EventAttribute(object) public EventAttribute(object @event) Parameters event object Properties Event public Enum Event { get; } Property Value Enum"
+  },
+  "api/Modrion.Core.EventMappingAttribute.html": {
+    "href": "api/Modrion.Core.EventMappingAttribute.html",
+    "title": "Class EventMappingAttribute | Modrion",
+    "summary": "Class EventMappingAttribute Namespace Modrion.Core Assembly Modrion.Core.dll [AttributeUsage(AttributeTargets.Field, AllowMultiple = false)] public class EventMappingAttribute : Attribute, _Attribute Inheritance object Attribute EventMappingAttribute Implements _Attribute Inherited Members Attribute.GetCustomAttributes(MemberInfo, Type) Attribute.GetCustomAttributes(MemberInfo, Type, bool) Attribute.GetCustomAttributes(MemberInfo) Attribute.GetCustomAttributes(MemberInfo, bool) Attribute.IsDefined(MemberInfo, Type) Attribute.IsDefined(MemberInfo, Type, bool) Attribute.GetCustomAttribute(MemberInfo, Type) Attribute.GetCustomAttribute(MemberInfo, Type, bool) Attribute.GetCustomAttributes(ParameterInfo) Attribute.GetCustomAttributes(ParameterInfo, Type) Attribute.GetCustomAttributes(ParameterInfo, Type, bool) Attribute.GetCustomAttributes(ParameterInfo, bool) Attribute.IsDefined(ParameterInfo, Type) Attribute.IsDefined(ParameterInfo, Type, bool) Attribute.GetCustomAttribute(ParameterInfo, Type) Attribute.GetCustomAttribute(ParameterInfo, Type, bool) Attribute.GetCustomAttributes(Module, Type) Attribute.GetCustomAttributes(Module) Attribute.GetCustomAttributes(Module, bool) Attribute.GetCustomAttributes(Module, Type, bool) Attribute.IsDefined(Module, Type) Attribute.IsDefined(Module, Type, bool) Attribute.GetCustomAttribute(Module, Type) Attribute.GetCustomAttribute(Module, Type, bool) Attribute.GetCustomAttributes(Assembly, Type) Attribute.GetCustomAttributes(Assembly, Type, bool) Attribute.GetCustomAttributes(Assembly) Attribute.GetCustomAttributes(Assembly, bool) Attribute.IsDefined(Assembly, Type) Attribute.IsDefined(Assembly, Type, bool) Attribute.GetCustomAttribute(Assembly, Type) Attribute.GetCustomAttribute(Assembly, Type, bool) Attribute.Equals(object) Attribute.GetHashCode() Attribute.Match(object) Attribute.IsDefaultAttribute() Attribute.TypeId object.ToString() object.Equals(object, object) object.ReferenceEquals(object, object) object.GetType() object.MemberwiseClone() Properties HookType public HarmonyEventHookType HookType { get; set; } Property Value HarmonyEventHookType TargetClass public string? TargetClass { get; set; } Property Value string TargetMethod public string? TargetMethod { get; set; } Property Value string"
+  },
+  "api/Modrion.Core.HarmonyEventHookType.html": {
+    "href": "api/Modrion.Core.HarmonyEventHookType.html",
+    "title": "Enum HarmonyEventHookType | Modrion",
+    "summary": "Enum HarmonyEventHookType Namespace Modrion.Core Assembly Modrion.Core.dll public enum HarmonyEventHookType Fields Postfix = 1 Prefix = 0"
+  },
+  "api/Modrion.Core.IModrionLogger.html": {
+    "href": "api/Modrion.Core.IModrionLogger.html",
+    "title": "Interface IModrionLogger | Modrion",
+    "summary": "Interface IModrionLogger Namespace Modrion.Core Assembly Modrion.Core.dll public interface IModrionLogger Methods Debug(string) void Debug(string message) Parameters message string Error(string) void Error(string message) Parameters message string Info(string) void Info(string message) Parameters message string Warn(string) void Warn(string message) Parameters message string"
+  },
+  "api/Modrion.Core.IStartup.html": {
+    "href": "api/Modrion.Core.IStartup.html",
+    "title": "Interface IStartup | Modrion",
+    "summary": "Interface IStartup Namespace Modrion.Core Assembly Modrion.Core.dll public interface IStartup Methods Initialize(IStartupContext) void Initialize(IStartupContext context) Parameters context IStartupContext"
+  },
+  "api/Modrion.Core.IStartupContext.html": {
+    "href": "api/Modrion.Core.IStartupContext.html",
+    "title": "Interface IStartupContext | Modrion",
+    "summary": "Interface IStartupContext Namespace Modrion.Core Assembly Modrion.Core.dll public interface IStartupContext Properties Configurator IStartup Configurator { get; } Property Value IStartup Harmony Harmony Harmony { get; } Property Value Harmony Events Initialized event EventHandler? Initialized Event Type EventHandler"
+  },
+  "api/Modrion.Core.Logger.html": {
+    "href": "api/Modrion.Core.Logger.html",
+    "title": "Class Logger | Modrion",
+    "summary": "Class Logger Namespace Modrion.Core Assembly Modrion.Core.dll public static class Logger Inheritance object Logger Inherited Members object.ToString() object.Equals(object) object.Equals(object, object) object.ReferenceEquals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() Methods Debug(string) public static void Debug(string message) Parameters message string Error(string) public static void Error(string message) Parameters message string Info(string) public static void Info(string message) Parameters message string SetLogger(IModrionLogger) public static void SetLogger(IModrionLogger logger) Parameters logger IModrionLogger Warn(string) public static void Warn(string message) Parameters message string"
+  },
+  "api/Modrion.Core.ModrionEnvironment.html": {
+    "href": "api/Modrion.Core.ModrionEnvironment.html",
+    "title": "Class ModrionEnvironment | Modrion",
+    "summary": "Class ModrionEnvironment Namespace Modrion.Core Assembly Modrion.Core.dll public class ModrionEnvironment Inheritance object ModrionEnvironment Inherited Members object.ToString() object.Equals(object) object.Equals(object, object) object.ReferenceEquals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() Constructors ModrionEnvironment(Assembly, Harmony) public ModrionEnvironment(Assembly entryAssembly, Harmony harmony) Parameters entryAssembly Assembly harmony Harmony Properties EntryAssembly public Assembly EntryAssembly { get; } Property Value Assembly Harmony public Harmony Harmony { get; } Property Value Harmony"
+  },
+  "api/Modrion.Core.ModrionInitParams.html": {
+    "href": "api/Modrion.Core.ModrionInitParams.html",
+    "title": "Struct ModrionInitParams | Modrion",
+    "summary": "Struct ModrionInitParams Namespace Modrion.Core Assembly Modrion.Core.dll public ref struct ModrionInitParams Inherited Members ValueType.Equals(object) ValueType.GetHashCode() ValueType.ToString() object.Equals(object, object) object.ReferenceEquals(object, object) object.GetType() Properties Harmony public Harmony Harmony { readonly get; set; } Property Value Harmony"
+  },
+  "api/Modrion.Core.NullLogger.html": {
+    "href": "api/Modrion.Core.NullLogger.html",
+    "title": "Class NullLogger | Modrion",
+    "summary": "Class NullLogger Namespace Modrion.Core Assembly Modrion.Core.dll public class NullLogger : IModrionLogger Inheritance object NullLogger Implements IModrionLogger Inherited Members object.ToString() object.Equals(object) object.Equals(object, object) object.ReferenceEquals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() Methods Debug(string) public void Debug(string message) Parameters message string Error(string) public void Error(string message) Parameters message string Info(string) public void Info(string message) Parameters message string Warn(string) public void Warn(string message) Parameters message string"
+  },
+  "api/Modrion.Core.StartupContext.html": {
+    "href": "api/Modrion.Core.StartupContext.html",
+    "title": "Class StartupContext | Modrion",
+    "summary": "Class StartupContext Namespace Modrion.Core Assembly Modrion.Core.dll public sealed class StartupContext : IStartupContext Inheritance object StartupContext Implements IStartupContext Inherited Members object.ToString() object.Equals(object) object.Equals(object, object) object.ReferenceEquals(object, object) object.GetHashCode() object.GetType() Constructors StartupContext(ModrionInitParams) public StartupContext(ModrionInitParams init) Parameters init ModrionInitParams Properties Configurator public IStartup Configurator { get; } Property Value IStartup Harmony public Harmony Harmony { get; } Property Value Harmony Methods InitializeUsing(IStartup) public void InitializeUsing(IStartup configurator) Parameters configurator IStartup Events Initialized public event EventHandler? Initialized Event Type EventHandler"
+  },
+  "api/Modrion.Core.html": {
+    "href": "api/Modrion.Core.html",
+    "title": "Namespace Modrion.Core | Modrion",
+    "summary": "Namespace Modrion.Core Classes EventAttribute EventMappingAttribute Logger ModrionEnvironment NullLogger StartupContext Structs ModrionInitParams Interfaces IModrionLogger IStartup IStartupContext Enums HarmonyEventHookType"
+  },
+  "index.html": {
+    "href": "index.html",
+    "title": "ToDo | Modrion",
+    "summary": "ToDo"
+  }
+}

@@ -1,0 +1,223 @@
+{
+  "source_base_path": "/home/runner/work/Modrion/Modrion/docs",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Modrion.Core.EventAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Modrion.Core.EventAttribute.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Modrion.Core.EventAttribute",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Modrion.Core.EventMappingAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Modrion.Core.EventMappingAttribute.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Modrion.Core.EventMappingAttribute",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Modrion.Core.HarmonyEventHookType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Modrion.Core.HarmonyEventHookType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Modrion.Core.HarmonyEventHookType",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Modrion.Core.IModrionLogger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Modrion.Core.IModrionLogger.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Modrion.Core.IModrionLogger",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Modrion.Core.IStartup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Modrion.Core.IStartup.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Modrion.Core.IStartup",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Modrion.Core.IStartupContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Modrion.Core.IStartupContext.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Modrion.Core.IStartupContext",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Modrion.Core.Logger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Modrion.Core.Logger.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Modrion.Core.Logger",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Modrion.Core.ModrionEnvironment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Modrion.Core.ModrionEnvironment.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Modrion.Core.ModrionEnvironment",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Modrion.Core.ModrionInitParams.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Modrion.Core.ModrionInitParams.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Modrion.Core.ModrionInitParams",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Modrion.Core.NullLogger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Modrion.Core.NullLogger.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Modrion.Core.NullLogger",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Modrion.Core.StartupContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Modrion.Core.StartupContext.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Modrion.Core.StartupContext",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Modrion.Core.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Modrion.Core.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Modrion.Core",
+      "Summary": null
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".json": {
+          "relative_path": "api/toc.json"
+        },
+        ".html": {
+          "relative_path": "api/toc.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".json": {
+          "relative_path": "toc.json"
+        },
+        ".html": {
+          "relative_path": "toc.html"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
