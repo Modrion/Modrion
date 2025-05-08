@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<TargetFrameworks>net35;net6.0</TargetFrameworks>
+		<PackageId>Modrion.MelonLoader</PackageId>
+		<AssemblyName>Modrion.MelonLoader</AssemblyName>
+		<RootNamespace>Modrion.MelonLoader</RootNamespace>
+		<AppendTargetFrameworkToOutputPath>true</AppendTargetFrameworkToOutputPath>
+	</PropertyGroup>
+	
+	<ItemGroup>
+		<PackageReference Include="LavaGang.MelonLoader" Version="0.7.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\Modrion.Core\Modrion.Core.csproj" />
+	</ItemGroup>
+</Project>

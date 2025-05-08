@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<TargetFrameworks>net35;net6.0</TargetFrameworks>
+		<PackageId>Modrion.Core</PackageId>
+		<AssemblyName>Modrion.Core</AssemblyName>
+		<RootNamespace>Modrion.Core</RootNamespace>
+		<AppendTargetFrameworkToOutputPath>true</AppendTargetFrameworkToOutputPath>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="HarmonyX" Version="2.14.0" />
+	</ItemGroup>
+</Project>
